@@ -1,34 +1,16 @@
 body {
   background: radial-gradient(rgba(105, 202, 244, 0.9), rgba(99, 8, 99, 0.9));
 }
-a {
-  color: rgb(77, 192, 223);
-  font-weight: 800px;
-}
-strong {
-  color: rgb(131, 222, 248);
-}
+
 h1 {
   text-align: center;
   font-size: 38px;
   font-family: sans-serif;
   margin-bottom: 30px;
 }
-footer {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 18px;
-  color: rgba(19, 4, 66, 0.9);
-  font-weight: bold;
-}
-.container {
-  max-width: 600px;
-  background: radial-gradient(rgba(131, 214, 249, 0.9), rgba(38, 12, 116, 0.9));
-  padding: 30px;
-  margin: 60px 400px;
-  box-shadow: 15px 10px 10px rgb(13, 1, 40);
-  border-radius: 40px;
-  font-family: sans-serif;
+h2 {
+  margin: 0 0 8px;
+  font-size: 33px;
 }
 select {
   display: block;
@@ -39,6 +21,17 @@ select {
   font-family: sans-serif;
   background-color: rgb(202, 243, 251);
 }
+
+.container {
+  max-width: 600px;
+  background: radial-gradient(rgba(131, 214, 249, 0.9), rgba(38, 12, 116, 0.9));
+  padding: 30px;
+  margin: 60px 400px;
+  box-shadow: 15px 10px 10px rgb(13, 1, 40);
+  border-radius: 40px;
+  font-family: sans-serif;
+}
+
 .city {
   display: flex;
   justify-content: space-between;
@@ -49,10 +42,7 @@ select {
 .city:last-child {
   border: none;
 }
-h2 {
-  margin: 0 0 8px;
-  font-size: 33px;
-}
+
 .date {
   opacity: 0.8;
 }
@@ -63,4 +53,18 @@ h2 {
 .time small {
   font-size: 15px;
   vertical-align: middle;
+}
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgba(19, 4, 66, 0.9);
+  font-weight: bold;
+}
+a {
+  color: rgb(77, 192, 223);
+  font-weight: 800px;
+}
+strong {
+  color: rgb(131, 222, 248);
 }
