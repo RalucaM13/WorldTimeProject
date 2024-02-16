@@ -9,3 +9,39 @@ function updateMelbTime() {
 
 updateMelbTime();
 setInterval(updateMelbTime, 1000);
+
+function updateVancTime() {
+  let vancElement = document.querySelector("#vanc");
+  let vancDateElement = vancElement.querySelector(".date");
+  let vancTimeElement = vancElement.querySelector(".time");
+  let vancTime = moment().tz("America/Vancouver");
+  vancDateElement.innerHTML = vancTime.format("MMMM Do YYYY");
+  vancTimeElement.innerHTML = vancTime.format("h:mm:ss [<small>]A[</small>]");
+}
+
+updateVancTime();
+setInterval(updateVancTime, 1000);
+
+function updateGlasTime() {
+  let glasElement = document.querySelector("#glas");
+  let glasDateElement = glasElement.querySelector(".date");
+  let glasTimeElement = glasElement.querySelector(".time");
+  let glasTime = moment().tz("GB");
+  glasDateElement.innerHTML = glasTime.format("MMMM Do YYYY");
+  glasTimeElement.innerHTML = glasTime.format("h:mm:ss [<small>]A[</small>]");
+}
+
+updateGlasTime();
+setInterval(updateGlasTime, 1000);
+
+function updateBuchTime() {
+  let buchElement = document.querySelector("#buch");
+  let buchDateElement = buchElement.querySelector(".date");
+  let buchTimeElement = buchElement.querySelector(".time");
+  let buchTime = moment().tz("Europe/Bucharest");
+  buchDateElement.innerHTML = buchTime.format("MMMM Do YYYY");
+  buchTimeElement.innerHTML = buchTime.format("h:mm:ss [<small>]A[</small>]");
+}
+
+updateBuchTime();
+setInterval(updateBuchTime, 1000);
