@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(rgba(105, 202, 244, 0.9), rgba(99, 8, 99, 0.9));
+  background-image: url("https://getwallpapers.com/wallpaper/full/8/5/e/520121.jpg");
 }
 
 h1 {
@@ -57,12 +57,12 @@ select {
 footer {
   text-align: center;
   font-family: sans-serif;
-  font-size: 18px;
-  color: rgba(19, 4, 66, 0.9);
+  font-size: 16px;
+  color: rgb(5, 2, 15);
   font-weight: bold;
 }
 a {
-  color: rgb(77, 192, 223);
+  color: rgb(93, 205, 236);
   font-weight: 800px;
 }
 strong {
