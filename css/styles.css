@@ -68,3 +68,9 @@ a {
 strong {
   color: rgb(131, 222, 248);
 }
+@media (min-width: 300px) {
+  .container {
+    padding: 50;
+    text-align: center;
+  }
+}
