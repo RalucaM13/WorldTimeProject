@@ -7,10 +7,12 @@ h1 {
   font-size: 38px;
   font-family: sans-serif;
   margin-bottom: 30px;
+  color: black;
 }
 h2 {
   margin: 0 0 8px;
   font-size: 33px;
+  color: black;
 }
 select {
   display: block;
@@ -44,11 +46,13 @@ select {
 }
 
 .date {
-  opacity: 0.8;
+  color: rgb(36, 4, 46);
+  font-weight: bold;
 }
 .time {
   font-size: 40px;
   font-weight: bold;
+  color: rgb(36, 4, 46);
 }
 .time small {
   font-size: 15px;
